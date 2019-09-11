@@ -1,13 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="IJ:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79786a1f-7296-4d05-b3f3-d8e5b5ca58fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/derby.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/derbyshared.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/derbytools.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/db.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/log/log.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/log/log1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/log/logmirror.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c10.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c101.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c111.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c121.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c130.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c141.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c161.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c171.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c180.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c191.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c1a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c1b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c1c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c1d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c1e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c1f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c200.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c211.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c221.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c230.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c241.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c251.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c260.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c271.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c281.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c290.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c2a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c2b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c2c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c2d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c2e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c2f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c300.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c311.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c321.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c331.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c340.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c351.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c361.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c371.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c380.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c391.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c3a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c3b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c3c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c3d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c3e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c3f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c400.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c41.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c411.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c421.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c430.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c441.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c451.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c461.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c470.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c481.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c51.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c60.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c71.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c81.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/c90.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/ca1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/cb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/cc0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/cd1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/ce1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/seg0/cf0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/shoeDatabase/service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/IJ_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/IJ_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IJ.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\School\WCTC\FALL2019\Dist Java\IJ\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1QO9vkNAYKbGtZ7nu9Gb1YAxIde" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
@@ -18,12 +156,29 @@
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_22_IJ" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
@@ -31,5 +186,39 @@
         </option>
       </method>
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79786a1f-7296-4d05-b3f3-d8e5b5ca58fd" name="Default Changelist" comment="" />
+      <created>1567631007234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567631007234</updated>
+      <workItem from="1567631011243" duration="741000" />
+      <workItem from="1568065469503" duration="999000" />
+      <workItem from="1568221524955" duration="331000" />
+      <workItem from="1568230614019" duration="5133000" />
+      <workItem from="1568236731201" duration="928000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
