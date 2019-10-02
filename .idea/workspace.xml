@@ -7,10 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79786a1f-7296-4d05-b3f3-d8e5b5ca58fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shoe.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shoeContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springxml/SpringApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springxml/beans/shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springxml/services/logFavorites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springxml/services/logged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springxml/services/shoeLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/IJ_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/IJ_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IJ.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +27,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,12 +58,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springDemo" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\lib" />
     </key>
@@ -72,7 +83,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpringApp">
+    <configuration name="SpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springxml.SpringApp" />
+      <module name="IJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springxml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="IJ:war exploded">
@@ -111,6 +135,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -127,7 +156,11 @@
       <workItem from="1568221524955" duration="331000" />
       <workItem from="1568230614019" duration="5133000" />
       <workItem from="1568236731201" duration="1132000" />
-      <workItem from="1568839192874" duration="3572000" />
+      <workItem from="1568839192874" duration="3692000" />
+      <workItem from="1569435899304" duration="657000" />
+      <workItem from="1569866289502" duration="3383000" />
+      <workItem from="1570039340984" duration="151000" />
+      <workItem from="1570046991562" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="database commit">
       <created>1568238379079</created>
@@ -136,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568238379079</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Servlet Commit">
+      <created>1568842848457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568842848457</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="database commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="database commit" />
+    <MESSAGE value="Servlet Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Servlet Commit" />
   </component>
 </project>

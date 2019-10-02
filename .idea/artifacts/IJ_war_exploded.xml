@@ -14,6 +14,7 @@
           <element id="directory" name="shoeDatabase">
             <element id="dir-copy" path="$PROJECT_DIR$/lib/shoeDatabase" />
           </element>
+          <element id="library" level="application" name="Spring" />
         </element>
       </element>
     </root>
