@@ -7,13 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79786a1f-7296-4d05-b3f3-d8e5b5ca58fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shoe.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shoeContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/SpringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/beans/shoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/services/logFavorites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/services/logged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/services/shoeLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springmvc/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/adidas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/adidas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/bred1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/jordan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/jordan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/nike.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/nike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/IJ_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/IJ_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IJ.iml" afterDir="false" />
@@ -30,6 +36,7 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -58,17 +65,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springDemo" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\web\WEB-INF" />
+      <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\web\WEB-INF\resources\css" />
+      <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\web\WEB-INF\resources\img" />
+      <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -83,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringApp">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.22">
     <configuration name="SpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springxml.SpringApp" />
       <module name="IJ" />
@@ -113,6 +123,39 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52352" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -160,7 +203,9 @@
       <workItem from="1569435899304" duration="657000" />
       <workItem from="1569866289502" duration="3383000" />
       <workItem from="1570039340984" duration="151000" />
-      <workItem from="1570046991562" duration="2213000" />
+      <workItem from="1570046991562" duration="2332000" />
+      <workItem from="1571078598506" duration="1381000" />
+      <workItem from="1571080016193" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="database commit">
       <created>1568238379079</created>
@@ -176,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568842848457</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spring Commit">
+      <created>1570049274667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570049274667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +250,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="database commit" />
     <MESSAGE value="Servlet Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servlet Commit" />
+    <MESSAGE value="Spring Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Commit" />
   </component>
 </project>
