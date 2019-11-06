@@ -6,29 +6,43 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79786a1f-7296-4d05-b3f3-d8e5b5ca58fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springmvc/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/adidas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/adidas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/bred1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/jordan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/jordan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/nike.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/nike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/home.jsp" afterDir="false" />
+    <list default="true" id="79786a1f-7296-4d05-b3f3-d8e5b5ca58fd" name="Default Changelist" comment="Spring MVC Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_5_5_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/HibernateApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/shoes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/IJ_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/IJ_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IJ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/shoeDatabase/db.lck" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Apache Derby (Embedded) - shoeDatabase" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,24 +75,28 @@
   <component name="ProjectId" id="1QO9vkNAYKbGtZ7nu9Gb1YAxIde" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="cassandra&#10;derby" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/derbytools.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hibernate.entity" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\web\WEB-INF" />
       <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\web\WEB-INF\resources\css" />
       <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\web\WEB-INF\resources\img" />
       <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\lib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\School\WCTC\FALL2019\Dist Java\IJ\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -184,6 +202,16 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -206,6 +234,9 @@
       <workItem from="1570046991562" duration="2332000" />
       <workItem from="1571078598506" duration="1381000" />
       <workItem from="1571080016193" duration="44000" />
+      <workItem from="1571259293111" duration="247000" />
+      <workItem from="1573069798397" duration="2639000" />
+      <workItem from="1573075062148" duration="675000" />
     </task>
     <task id="LOCAL-00001" summary="database commit">
       <created>1568238379079</created>
@@ -228,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570049274667</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spring MVC Commit">
+      <created>1571259496231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571259496231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +289,7 @@
     <MESSAGE value="database commit" />
     <MESSAGE value="Servlet Commit" />
     <MESSAGE value="Spring Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Commit" />
+    <MESSAGE value="Spring MVC Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC Commit" />
   </component>
 </project>
