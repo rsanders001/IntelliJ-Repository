@@ -6,7 +6,7 @@ import hibernate.DateUtils;
 import javax.persistence.*;
 import java.util.Date;
 
-
+/**Only one table created so no mapping relationships are used**/
 @Entity
 @Table(name="shoes")
 public class shoes {
@@ -30,12 +30,13 @@ public class shoes {
         // no-arg constructor
     }
 
-    public shoes(int shoeId, String style, String color, Double retail, Date releaseeDate, String description) {
-        this.shoeId = shoeId;
+    public shoes(String style, String color, Double retail, Date releaseeDate, String description) {
+        //this.shoeId = shoeId;
         this.style = style;
         this.color = color;
         this.retail = retail;
         this.releaseDate = releaseeDate;
+        this.description = description;
     }
 
     public int getShoeId() {
@@ -76,6 +77,14 @@ public class shoes {
 
     public void setReleaseDate(Date releaseDate) {
         this.releaseDate = releaseDate;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     @Override
