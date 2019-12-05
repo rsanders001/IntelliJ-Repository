@@ -2,6 +2,9 @@ package hibernate.entity;
 
 
 import hibernate.DateUtils;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -9,7 +12,10 @@ import java.util.Date;
 /**Only one table created so no mapping relationships are used**/
 @Entity
 @Table(name="shoes")
+
 public class shoes {
+    @Autowired
+    private SessionFactory sessionFactory;
     //PRIMARY KEY
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
@@ -87,6 +93,14 @@ public class shoes {
         this.description = description;
     }
 
+    public Date getDateAdded() {
+        return releaseDate;
+    }
+
+    public void setDateAdded(Date dateAdded) {
+        this.releaseDate = dateAdded;
+    }
+
     @Override
     public String toString() {
         return "Shoe{" +
@@ -98,4 +112,6 @@ public class shoes {
                 ", description=" + description +
                 '}';
     }
+
+
 }

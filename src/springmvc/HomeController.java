@@ -14,7 +14,7 @@ public class HomeController {
         // Returns the name of the view to show
         // Remember that prefix and suffix will be added
         // Result will be "/WEB-INF/view/main-menu.jsp"
-        return "home";
+        return "index";
     }
 }
 
