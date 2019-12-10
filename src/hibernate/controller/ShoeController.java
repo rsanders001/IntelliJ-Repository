@@ -68,6 +68,11 @@ public class ShoeController {
 
         return "add-shoe-form";
     }
+    @PostMapping("/addShoes")
+    public String addShoe(Model theModel, @ModelAttribute(name = "aShoe")shoes theShoe){
+        shoeService.saveShoes(theShoe);
+        return "list-shoes";
+    }
 
     @PostMapping("/save")
     public String saveShoe(@RequestParam(name = "shoeImage") MultipartFile file,
@@ -81,7 +86,7 @@ public class ShoeController {
             return "add-shoe-form";
         }
 
-        shoeService.saveShoes(theShoe, file, request.getServletContext().getRealPath("/"));
+        //shoeService.saveShoes(theShoe);
 
         return "redirect:/shoes/list";
     }

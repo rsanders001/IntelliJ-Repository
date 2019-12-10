@@ -11,7 +11,7 @@
 <html>
 <head>
     <title>Shoe List</title>
-    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="../resources/css/style.css">
 </head>
 <body>
 <video autoplay muted loop id="background">
@@ -25,19 +25,14 @@
         <ul>
             <a href="index.html"><li>Home</li></a>
             <a href="#"><li>Nike</li></a>
-            <a href="jordanList.html"><li>Jordan</li></a>
+            <a href="#"><li>Jordan</li></a>
             <a href="#"><li>Adidas</li></a>
-            <a href="favorites.html">Favorites</a>
-            <br>
-            <form:form method="GET" action="search">
-                Search Shoes <input type="search" name="searchTerm">
-                <input type="submit" value="Search" class="add-button">
-            </form:form>
+            <a href="${pageContext.request.contextPath}/shoes/showAddShoeForm"><li>Add Shoe</li></a>
         </ul>
     </nav>
 
     <div class="listItem">
-
+<table
         <c:forEach var="tempShoe" items="${shoes}">
 
 
@@ -50,10 +45,11 @@
                 <td>${tempShoe.releaseDate}</td>
                 <td>${tempShoe.dateAdded}</td>
             </tr>
+            <br>
 
 
         </c:forEach>
-
+    </table
 
     </div>
 

@@ -32,7 +32,7 @@ public class shoeDAOImpl implements shoeDAO{
         System.out.println(newShoe);
 
         session.save(newShoe);
-        session.getTransaction().commit();
+        //session.getTransaction().commit();
     }
 
     @Override
@@ -51,7 +51,7 @@ public class shoeDAOImpl implements shoeDAO{
         if (sShoes != null) {
             session.delete(sShoes);
         }
-        session.getTransaction().commit();
+        //session.getTransaction().commit();
     }
 
 
@@ -61,7 +61,7 @@ public class shoeDAOImpl implements shoeDAO{
         /** READ **/
         shoes sShoes = session.get(shoes.class, shoeId);
         System.out.println(sShoes);
-        session.getTransaction().commit();
+        //session.getTransaction().commit();
     }
 
     public void updateShoe(int shoeId) {
@@ -78,7 +78,7 @@ public class shoeDAOImpl implements shoeDAO{
 
         System.out.println(sShoes);
 
-        session.getTransaction().commit();
+        //session.getTransaction().commit();
     }
 
     @Override

@@ -25,7 +25,7 @@ public class shoeServiceImpl implements shoeService {
 
     @Override
     @Transactional
-    public void saveShoes(shoes aShoe, MultipartFile file, String applicationPath) {
+    public void saveShoes(shoes aShoe) {
         if (aShoe.getDateAdded() == null) {
             aShoe.setDateAdded(new Date());
         }

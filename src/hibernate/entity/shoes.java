@@ -12,10 +12,9 @@ import java.util.Date;
 /**Only one table created so no mapping relationships are used**/
 @Entity
 @Table(name="shoes")
-
 public class shoes {
-    @Autowired
-    private SessionFactory sessionFactory;
+   /* @Autowired
+    private SessionFactory sessionFactory;*/
     //PRIMARY KEY
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)

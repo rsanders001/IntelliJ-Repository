@@ -8,7 +8,7 @@ import java.util.List;
 public interface shoeService {
     List<shoes> getShoes();
 
-    void saveShoes(shoes aShoe, MultipartFile file, String applicationPath);
+    void saveShoes(shoes aShoe);
 
     shoes getShoe(int ID);
 
