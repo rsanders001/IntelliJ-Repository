@@ -27,6 +27,7 @@ public class ShoeController {
         List<shoes> theList = shoeService.getShoes();
 
         theModel.addAttribute("shoes", theList);
+        theModel.addAttribute("shoeId", null);
 
         return "list-shoes";
     }
@@ -42,7 +43,7 @@ public class ShoeController {
         return "list-shoes";
     }
 
-    @GetMapping("/delete")
+    @GetMapping("/deleteShoes")
     public String deleteShoe(@RequestParam("shoeId") int id){
         shoeService.deleteShoe(id);
 
@@ -50,14 +51,19 @@ public class ShoeController {
     }
 
     @RequestMapping("/showUpdateShoeForm")
-    public String showUpdateShoeForm(@RequestParam("shoeId") int id,
-                                      Model theModel) {
-        shoes existingShoe = shoeService.getShoe(id);
+    public String showUpdateShoeForm(Model theModel) {
+        shoes existingShoe =  new shoes();
 
         theModel.addAttribute("aShoe", existingShoe);
 
+        return "edit-shoe-form";
+    }
 
-        return "add-shoe-form";
+    @RequestMapping("/editShoes")
+    public String editShoe(@ModelAttribute(name = "aShoe")shoes theShoe){
+        shoeService.saveShoes(theShoe);
+
+        return "redirect:/shoes/list";
     }
 
     @GetMapping("/showAddShoeForm")
@@ -71,7 +77,7 @@ public class ShoeController {
     @PostMapping("/addShoes")
     public String addShoe(Model theModel, @ModelAttribute(name = "aShoe")shoes theShoe){
         shoeService.saveShoes(theShoe);
-        return "list-shoes";
+        return "redirect:/shoes/list";
     }
 
     @PostMapping("/save")

@@ -7,24 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79786a1f-7296-4d05-b3f3-d8e5b5ca58fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/add-shoe-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/edit-shoe-form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/classes/hibernate/entity/shoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/classes/hibernate/entity/shoes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/seg0/c4b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/seg0/c4b0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/seg0/c4c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/lib/shoeDatabase/seg0/c4c1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/IJ_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IJ/hibernate/entity/shoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IJ/hibernate/entity/shoes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoeDatabase/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/shoeDatabase/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoeDatabase/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/shoeDatabase/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoeDatabase/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/shoeDatabase/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoeDatabase/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/shoeDatabase/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoeDatabase/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/shoeDatabase/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoeDatabase/seg0/c4b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/shoeDatabase/seg0/c4b0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoeDatabase/seg0/c4c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/shoeDatabase/seg0/c4c1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate/DAO/shoeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/DAO/shoeDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate/controller/ShoeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/controller/ShoeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/shoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/shoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate/service/shoeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/service/shoeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate/service/shoeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/service/shoeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/list-shoes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/list-shoes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
@@ -105,7 +106,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoH/dist-java-hibernate-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/derbytools.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -461,7 +462,8 @@
       <workItem from="1575501419065" duration="9039000" />
       <workItem from="1575565670715" duration="2913000" />
       <workItem from="1575583310787" duration="5210000" />
-      <workItem from="1576010706799" duration="3821000" />
+      <workItem from="1576010706799" duration="4129000" />
+      <workItem from="1576091145628" duration="5764000" />
     </task>
     <task id="LOCAL-00001" summary="database commit">
       <created>1568238379079</created>
@@ -519,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575589261446</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding a Shoe Works!!!">
+      <created>1576014994237</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576014994237</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,6 +555,7 @@
     <MESSAGE value="CRUD PUSH" />
     <MESSAGE value="SiteLoading" />
     <MESSAGE value="Site Loading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Site Loading" />
+    <MESSAGE value="Adding a Shoe Works!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a Shoe Works!!!" />
   </component>
 </project>

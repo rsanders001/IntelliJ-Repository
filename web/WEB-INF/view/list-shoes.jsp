@@ -28,11 +28,12 @@
             <a href="#"><li>Jordan</li></a>
             <a href="#"><li>Adidas</li></a>
             <a href="${pageContext.request.contextPath}/shoes/showAddShoeForm"><li>Add Shoe</li></a>
+            <a href="${pageContext.request.contextPath}/shoes/showUpdateShoeForm"><li>Edit Shoes</li></a>
         </ul>
     </nav>
 
     <div class="listItem">
-<table
+<table style="width:75%; margin: 0 auto;">
         <c:forEach var="tempShoe" items="${shoes}">
 
 
@@ -43,13 +44,18 @@
                 <td>${tempShoe.color}</td>
                 <td>${tempShoe.retail}</td>
                 <td>${tempShoe.releaseDate}</td>
-                <td>${tempShoe.dateAdded}</td>
+                <td><c:url var="deleteLink" value="/shoes/deleteShoes">
+                    <c:param name="shoeId" value="${tempShoe.shoeId}"/>
+                </c:url>
+                <a href="${deleteLink}">Delete Shoe</a>
+
+                </td>
             </tr>
             <br>
 
 
         </c:forEach>
-    </table
+    </table>
 
     </div>
 

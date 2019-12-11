@@ -45,7 +45,7 @@ public class shoeDAOImpl implements shoeDAO{
 
     public void deleteShoe(int shoeId) {
         Session session = factory.getCurrentSession();
-        session.beginTransaction();
+        //session.beginTransaction();
         /** DELETE **/
         shoes sShoes = session.get(shoes.class, shoeId);
         if (sShoes != null) {
